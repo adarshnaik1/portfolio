@@ -2,6 +2,8 @@
 
 A modern, responsive portfolio website built with Next.js and Tailwind CSS to showcase my professional journey, projects, and achievements.
 
+🌐 **Live Website:** [adarshnaik.space](https://adarshnaik.space)
+
 ## Project Overview
 
 This portfolio serves as a central hub for:
