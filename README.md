@@ -47,8 +47,3 @@ npm install
 npm run dev
 ```
 
-## Contact
-[Your contact information will be added here]
-
-## License
-[Your chosen license will be added here]
