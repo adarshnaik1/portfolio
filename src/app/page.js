@@ -31,10 +31,10 @@ export default function Home() {
       {/* Profile Hero Section */}
 
       <div className="flex flex-col items-center text-center space-y-3 sm:space-y-4">
-       <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-[Consolas] tracking-wider"> Hey There! </h1>
+       <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-consolas tracking-wider"> Hey There! </h1>
 
        <PointerHighlight >
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-[Consolas] tracking-wider"> I'm Adarsh Naik</h1>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-consolas tracking-wider"> I'm Adarsh Naik</h1>
        </PointerHighlight>
        
        <div className="mt-3 sm:mt-5">
@@ -74,7 +74,7 @@ export default function Home() {
     {/* Skills Section */}
           
     <section id="skills-section" className="flex flex-col items-center space-y-4 sm:space-y-6 py-8 sm:py-12 md:py-16 w-full overflow-hidden px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-[Consolas] tracking-wider">Skills</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-consolas tracking-wider">Skills</h2>
           <div className="w-full overflow-hidden">
             <BrandLogos />
           </div>

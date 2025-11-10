@@ -8,12 +8,14 @@
 html{
   scroll-behavior: smooth;
   overflow-x: hidden;
+  
 }
 
 body{
   background-color: black;
   color: white;
   overflow-x: hidden;
+  
 }
 /*This styling can be removed if it is found that this tyling causes problems*/
 /*styling to remove scrollbar */
@@ -35,5 +37,10 @@ body {
 html {
   scrollbar-width: none;
   -ms-overflow-style: none;
+}
+
+/* Custom font class with fallbacks for cross-platform compatibility */
+.font-consolas {
+  font-family: 'Consolas', 'Monaco', 'SF Mono', 'Courier New', 'Roboto Mono', monospace;
 }
 
