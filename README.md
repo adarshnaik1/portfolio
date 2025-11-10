@@ -19,7 +19,7 @@ This portfolio serves as a central hub for:
 - [x] Create an engaging hero section with personal introduction
 - [x] Implement animated spotlight effect
 - [x] Add responsive profile image
-- [ ] Integrate social media links
+- [x] Integrate social media links
 - [ ] Add resume download button
 - [ ] Create call-to-action section
 - [ ] Implement mobile-responsive design for hero section
@@ -28,7 +28,7 @@ This portfolio serves as a central hub for:
 - Hero section layout: ✅
 - Animation effects: ✅
 - Profile section: ✅
-- Social links: 🚧
+- Social links: ✅
 - Resume integration: 🚧
 
 ### Upcoming Phases

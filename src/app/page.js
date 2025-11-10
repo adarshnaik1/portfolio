@@ -1,7 +1,8 @@
 
 import Image from "next/image";
-
+import SocialBand from "@/components/ui/social_band";
 import { PointerHighlight } from "@/components/ui/pointer-highlight";
+import { socialsData } from "@/config/socials";
 
 export default function Home() {
  
@@ -28,11 +29,18 @@ export default function Home() {
 
       {/* Profile Hero Section */}
 
-      <div className="flex flex-col items-center space-y-2">
+      <div className="flex flex-col items-center space-y-4 hover:text-gray-300 hover:scale-105">
        <h1 className="text-6xl font-[Consolas] tracking-wider"> Hey There! </h1>
+
        <PointerHighlight >
             <h1  className="text-6xl font-[Consolas] tracking-wider"> I'm Adarsh Naik</h1>
        </PointerHighlight>
+       
+       <div className="mt-5">
+           <SocialBand socials={socialsData}   />
+       </div>
+
+      
        
       </div>
 
