@@ -14,14 +14,12 @@ This portfolio serves as a central hub for:
 
 ## Development Phases
 
-### Phase 1: Hero Section & Professional Links (65% Complete)
+### Phase 1: Hero Section & Professional Links (90% Complete)
 **Objectives:**
 - [x] Create an engaging hero section with personal introduction
 - [x] Implement animated spotlight effect
 - [x] Add responsive profile image
 - [x] Integrate social media links
-- [ ] Add resume download button
-- [ ] Create call-to-action section
 - [ ] Implement mobile-responsive design for hero section
 
 **Progress Metrics:**
@@ -29,13 +27,13 @@ This portfolio serves as a central hub for:
 - Animation effects: ✅
 - Profile section: ✅
 - Social links: ✅
-- Resume integration: 🚧
+- Responsive Design: 🚧
 
 ### Upcoming Phases
-- Phase 2: Projects Showcase
+- Phase 2: Projects Showcase / CTA section 
+- Phase 2.5: Github API Integration (Optional)
 - Phase 3: Blog/Writing Section
-- Phase 4: Skills & Technologies
-- Phase 5: Contact Form & Footer
+- Phase 4:  Resume Integration,Contact Form & Footer
 
 ## Tech Stack
 - Next.js

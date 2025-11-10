@@ -3,8 +3,37 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/*oveflow-x hidden is added to remove horizontal scroll can be removed if causes problems */
+
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
 
 body{
   background-color: black;
   color: white;
+  overflow-x: hidden;
 }
+/*This styling can be removed if it is found that this tyling causes problems*/
+/*styling to remove scrollbar */
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+body {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+

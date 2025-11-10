@@ -1,6 +1,7 @@
 
 import Image from "next/image";
 import SocialBand from "@/components/ui/social_band";
+import BrandLogos from "@/components/ui/BrandLogos";
 import { PointerHighlight } from "@/components/ui/pointer-highlight";
 import { socialsData } from "@/config/socials";
 
@@ -8,7 +9,7 @@ export default function Home() {
  
   return (
     <>
-    <div className=" flex flex-col items-center justify-center h-screen">
+    <div className="flex flex-col items-center justify-center h-screen overflow-hidden">
         {/*This gives the background the glowy effect*/}
        <div className="absolute inset-0 -z-10">
         <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-gradient-to-r from-purple-500 to-blue-500 rounded-full blur-3xl opacity-30"></div>
@@ -47,15 +48,37 @@ export default function Home() {
  
 
     </div>
+
+    {/* Scroll to Skills Button - Fixed at bottom */}
+    <a 
+      href="#skills-section"
+      className="absolute bottom-8 flex items-center justify-center w-12 h-12 rounded-full bg-white/10 border border-white/20 hover:bg-white/20 hover:scale-110 transition-all duration-300 group animate-bounce"
+      aria-label="Scroll to skills section"
+    >
+      <svg 
+        className="w-6 h-6 text-white group-hover:translate-y-1 transition-transform duration-300" 
+        fill="none" 
+        stroke="currentColor" 
+        viewBox="0 0 24 24"
+      >
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+      </svg>
+    </a>
    
-        <div className="flex   ">
-          <h1 className="text-xl  font-[Consolas] tracking-wider">More Content Coming Soon! </h1>
-        </div>
-    
-   
-      
+        
+
 
   </div>
+  
+    
+    {/* Skills Section */}
+          
+    <section id="skills-section" className="flex flex-col items-center space-y-6 mt-8 w-full overflow-hidden">
+          <h2 className="text-4xl font-[Consolas] tracking-wider">Skills</h2>
+          <div className="w-full overflow-hidden">
+            <BrandLogos />
+          </div>
+    </section>
 
     </>
     
