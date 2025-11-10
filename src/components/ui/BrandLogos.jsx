@@ -6,7 +6,7 @@ import { skillsData } from "@/config/skills";
 export default function BrandLogos (){
     return(
         <Slider
-            width="230px"
+            width="220px"
             duration={40}
             pauseOnHover={true}
             blurBorders={false}
