@@ -4,11 +4,13 @@ import SocialBand from "@/components/ui/social_band";
 import BrandLogos from "@/components/ui/BrandLogos";
 import { PointerHighlight } from "@/components/ui/pointer-highlight";
 import { socialsData } from "@/config/socials";
+import Navbar from "@/components/ui/Navbar";
 
 export default function Home() {
  
   return (
     <>
+    <Navbar/>
     <div className="flex flex-col items-center justify-center min-h-screen overflow-hidden px-4 sm:px-6 lg:px-8">
         {/*This gives the background the glowy effect*/}
        <div className="absolute inset-0 -z-10">

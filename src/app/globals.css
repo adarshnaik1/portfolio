@@ -8,6 +8,7 @@
 html{
   scroll-behavior: smooth;
   overflow-x: hidden;
+   
   
 }
 
@@ -15,6 +16,7 @@ body{
   background-color: black;
   color: white;
   overflow-x: hidden;
+  
   
 }
 /*This styling can be removed if it is found that this tyling causes problems*/
