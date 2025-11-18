@@ -7,13 +7,13 @@ export default function Navbar(){
                     {/* Left Section - About Me & Projects */}
                     <div className="flex items-center space-x-8">
                         <Link 
-                            href="#about" 
+                            href="/about" 
                             className="text-white font-consolas hover:text-white/80 transition-colors duration-300 text-sm lg:text-base"
                         >
                             About Me
                         </Link>
                         <Link 
-                            href="#projects" 
+                            href="/projects" 
                             className="text-white font-consolas hover:text-white/80 transition-colors duration-300 text-sm lg:text-base"
                         >
                             Projects

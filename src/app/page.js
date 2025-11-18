@@ -76,7 +76,7 @@ export default function Home() {
     {/* Skills Section */}
           
     <section id="skills-section" className="flex flex-col items-center space-y-4 sm:space-y-6 py-8 sm:py-12 md:py-16 w-full overflow-hidden px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-consolas tracking-wider">Skills</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-consolas tracking-wider mb-6 py-4">Skills</h2>
           <div className="w-full overflow-hidden">
             <BrandLogos />
           </div>
